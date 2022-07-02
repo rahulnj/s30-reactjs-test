@@ -2,11 +2,12 @@
 .homeScreen {
     height: 100vh;
     @include CenterItem;
+    background-color: #e7eaf0;
     &_parent {
-        // border: 1px solid red;
         width: 312px;
         height: 360px;
         box-shadow: $main-shadow;
+
         padding: 24px;
         &_wrapper {
             @include CenterItem;

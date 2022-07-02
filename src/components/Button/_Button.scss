@@ -1,16 +1,19 @@
 button {
     position: relative;
-    width: 180px;
+    width: 160px;
     height: 40px;
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     color: white;
     border: none;
     outline: none;
     cursor: pointer;
+    margin: 0 auto;
     overflow: hidden;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
     transition: transform 0.4s ease-in-out;
+    padding-left: 15px;
+    border-radius: 4px;
 }
 
 button:active {
@@ -20,17 +23,17 @@ button:active {
 
 .icon {
     position: absolute;
-    left: 20px;
-    top: 10px;
+    left: 35px;
+    top: 11px;
 }
 .btn-green {
-    background: #1abc9c;
-    border-bottom: 2px solid #12ab8d;
-    box-shadow: inset 0 -2px #12ab8d;
+    background-color: rgb(84, 105, 212);
+    // border-bottom: 2px solid #12ab8d;
+    // box-shadow: inset 0 -2px #12ab8d;
 }
 .btn-green .icon {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
     transition: all 0.4s ease-in-out;
 }
 .btn-green:hover .icon {
