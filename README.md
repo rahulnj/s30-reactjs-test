@@ -16,10 +16,14 @@ I have used html, scss, typescript, react-redux, redux-thunk, @redux-devtools/ex
 
 ## Steps to run the application:
 
-#1. Clone the repo.
+#1. Clone the repo using this link `https://github.com/rahulnj/s30-reactjs-test.git`
 
 #2. Make sure that you have installed node.
 
-#3. Navigate to the root directory by `cd s30-reactjs-test/` and run: `npm install` && `npm start`
+#3. Navigate to the root directory by `cd s30-reactjs-test/`
 
-#4. You can go to `localhost:3000` from your browser and test the app.
+#4. Run `npm install` for installing the node modules.
+
+#5. Run `npm start` for running the project.
+
+#6. You can go to `localhost:3000` from your browser and test the app.
