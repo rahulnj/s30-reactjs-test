@@ -12,15 +12,12 @@ export const fetchUserDetails = () => {
         });
         try {
             const { data } = await axios.get<FetchUserDetailsResponse>(FETCH_USER_DETAILS_API)
-            console.log(data.results);
-            
             localStorage.setItem('userV1', JSON.stringify(data))
             dispatch({
                 type: FetchUserDetailsActionType.FETCH_USER_DETAILS_SUCCESS,
                 payload: data.results[0]
             })
         } catch (error: any) {
-            console.log(error);
             dispatch({
                 type: FetchUserDetailsActionType.FETCH_USER_DETAILS_FAIL,
                 payload: error
