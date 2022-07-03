@@ -2,12 +2,12 @@
 .homeScreen {
     height: 100vh;
     @include CenterItem;
-    background-color: #e7eaf0;
+    background: #ffc466;
     &_parent {
         width: 312px;
         height: 360px;
         box-shadow: $main-shadow;
-
+        background: #449db7;
         padding: 24px;
         &_wrapper {
             @include CenterItem;
@@ -28,6 +28,7 @@
                 @include CenterItem;
                 flex-direction: column;
                 height: 40px;
+                color: white;
             }
         }
     }
