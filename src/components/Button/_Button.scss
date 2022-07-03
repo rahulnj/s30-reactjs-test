@@ -4,7 +4,6 @@ button {
     height: 40px;
     font-size: 18px;
     text-align: center;
-    color: white;
     border: none;
     outline: none;
     cursor: pointer;
@@ -14,6 +13,9 @@ button {
     transition: transform 0.4s ease-in-out;
     padding-left: 15px;
     border-radius: 4px;
+    background: #f57576;
+    color: white;
+    font-weight: bold;
 }
 
 button:active {
@@ -26,16 +28,16 @@ button:active {
     left: 35px;
     top: 11px;
 }
-.btn-green {
-    background-color: rgb(84, 105, 212);
-    // border-bottom: 2px solid #12ab8d;
-    // box-shadow: inset 0 -2px #12ab8d;
-}
+
 .btn-green .icon {
     width: 15px;
     height: 15px;
     transition: all 0.4s ease-in-out;
 }
-.btn-green:hover .icon {
+// .btn-green:hover .icon {
+//     transform: rotate(360deg) scale(1.2);
+// }
+
+.reload {
     transform: rotate(360deg) scale(1.2);
 }
