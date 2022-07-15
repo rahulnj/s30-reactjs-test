@@ -9,7 +9,7 @@ const Button: FC<{
     loading: boolean;
 }> = ({ btnText, onClick, iconUrl, loading }) => {
     return (
-        <button className="btn-green"
+        <button disabled={loading} className="btn-green"
             onClick={onClick}>
             <img className={loading ? "reload icon" : "icon"} src={iconUrl} alt="refresh button" />
             {btnText}
